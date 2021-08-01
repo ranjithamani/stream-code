@@ -34,11 +34,11 @@ public class GroceryDAOImpl implements GroceryDAO{
 		return this.collection.stream().filter((w)->w.getManufacturedDate().equals(date)).findFirst();
 	}
 	
-	@Override
+	/*@Override
 	public Collection<GroceryDTO> findAllByExpiredDate() {
 		
 		return this.collection.stream().collect(Collectors.toList());
-	}
+	}*/
 	
 	@Override
 	public Optional<GroceryDTO> findByMaxQuantity() {

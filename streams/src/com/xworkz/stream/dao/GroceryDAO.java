@@ -11,6 +11,6 @@ public interface GroceryDAO {
  Optional<GroceryDTO> findOne(GrocerySearch search);
  Collection<GroceryDTO> findAll(GrocerySearch search);
  Optional<GroceryDTO> findByManufacturedDate(Date date);
- Collection<GroceryDTO> findAllByExpiredDate();
+ //Collection<GroceryDTO> findAllByExpiredDate();
  Optional<GroceryDTO> findByMaxQuantity();
 }

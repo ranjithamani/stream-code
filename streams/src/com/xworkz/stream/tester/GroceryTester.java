@@ -63,8 +63,8 @@ public class GroceryTester {
 		} else {
 			System.out.println("not found");
 		}
-		Collection<GroceryDTO> exp=dao.findAllByExpiredDate();
-		exp.forEach((g)->System.out.println(g.getExpiryDate()));
+		/*Collection<GroceryDTO> exp=dao.findAllByExpiredDate();
+		exp.forEach((g)->System.out.println(g.getExpiryDate()));*/
 
 		Optional<GroceryDTO> quant = dao.findByMaxQuantity();
 		if (quant.isPresent()) {
