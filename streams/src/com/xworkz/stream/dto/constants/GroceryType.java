@@ -1,0 +1,6 @@
+package com.xworkz.stream.dto.constants;
+
+public enum GroceryType {
+VEGETABLES,CANNED_GOODS,MEAT,CONDIMENTS_SPICES,BEVERAGES,CEREAL,PERSONALCARE,HOUSEHOLD_SUPPLIES
+
+}

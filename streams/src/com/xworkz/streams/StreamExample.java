@@ -1,6 +1,5 @@
 package com.xworkz.streams;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.stream.Collectors;
@@ -27,6 +26,7 @@ public class StreamExample {
 
 		Collection<String> value = usn.stream().filter((f) -> f.contains("CS")).collect(Collectors.toList());
 		value.forEach((v)->System.out.println(v));
+		
 		System.out.println(value.size());
 	}
 
